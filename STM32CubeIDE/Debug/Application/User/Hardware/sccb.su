@@ -1,0 +1,16 @@
+../Application/User/Hardware/sccb.c:26:6:SCCB_GPIO_Config	40	static
+../Application/User/Hardware/sccb.c:59:6:SCCB_Delay	24	static
+../Application/User/Hardware/sccb.c:76:6:SCCB_Start	8	static
+../Application/User/Hardware/sccb.c:96:6:SCCB_Stop	8	static
+../Application/User/Hardware/sccb.c:117:6:SCCB_ACK	8	static
+../Application/User/Hardware/sccb.c:141:6:SCCB_NoACK	8	static
+../Application/User/Hardware/sccb.c:162:9:SCCB_WaitACK	8	static
+../Application/User/Hardware/sccb.c:192:9:SCCB_WriteByte	24	static
+../Application/User/Hardware/sccb.c:224:9:SCCB_ReadByte	24	static
+../Application/User/Hardware/sccb.c:259:9:SCCB_WriteHandle	24	static
+../Application/User/Hardware/sccb.c:285:9:SCCB_WriteReg	24	static
+../Application/User/Hardware/sccb.c:313:9:SCCB_ReadReg	24	static
+../Application/User/Hardware/sccb.c:345:9:SCCB_WriteHandle_16Bit	24	static
+../Application/User/Hardware/sccb.c:374:9:SCCB_WriteReg_16Bit	24	static
+../Application/User/Hardware/sccb.c:403:9:SCCB_ReadReg_16Bit	24	static
+../Application/User/Hardware/sccb.c:435:9:SCCB_WriteBuffer_16Bit	32	static

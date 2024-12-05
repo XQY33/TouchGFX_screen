@@ -1,0 +1,3 @@
+../Application/User/Hardware/qspi_w25q64.c:53:8:QSPI_W25Qxx_AutoPollingMemReady	96	static
+../Application/User/Hardware/qspi_w25q64.c:95:8:QSPI_W25Qxx_Reset	72	static
+../Application/User/Hardware/qspi_w25q64.c:145:8:QSPI_W25Qxx_MemoryMappedMode	80	static

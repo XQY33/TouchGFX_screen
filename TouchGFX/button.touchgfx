@@ -1,0 +1,474 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "start",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "SwipeContainer",
+            "Name": "swipeContainer1",
+            "Width": 800,
+            "Height": 480,
+            "SwipeCutoff": 50,
+            "ShowPageIndicator": true,
+            "PageIndicatorX": 382,
+            "IndicatorImageNormal": "__generated\\dark_theme_images_widgets_swipecontainer_small_off_normal.png",
+            "IndicatorImageHighlight": "__generated\\dark_theme_images_widgets_swipecontainer_small_on_normal.png",
+            "EndSwipeElasticWidth": 50,
+            "SelectedPage": "swipeContainer1Page2",
+            "Preset": "dark_theme\\presets\\swipecontainer\\small_light.json",
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "swipeContainer1Page1",
+                "Width": 800,
+                "Height": 480,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "back",
+                    "Width": 800,
+                    "Height": 480,
+                    "RelativeFilename": "__generated\\glass_theme_images_backgrounds_800x480_gradient_waves.png"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Head",
+                    "X": 97,
+                    "Y": 32,
+                    "Width": 609,
+                    "Height": 135,
+                    "TextId": "__SingleUse_T6TR",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 210,
+                      "Green": 212,
+                      "Blue": 217
+                    },
+                    "WideTextAction": 6
+                  },
+                  {
+                    "Type": "ScalableImage",
+                    "Name": "logo",
+                    "X": -43,
+                    "Y": 221,
+                    "Width": 561,
+                    "Height": 381,
+                    "Filename": "img_01.png",
+                    "ScalingAlgorithm": "Nearest-neighbor"
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "swipeContainer1Page2",
+                "Width": 800,
+                "Height": 480,
+                "Components": [
+                  {
+                    "Type": "ScalableImage",
+                    "Name": "scalableImage1",
+                    "Width": 800,
+                    "Height": 480,
+                    "Filename": "img_back.png",
+                    "ScalingAlgorithm": "Nearest-neighbor"
+                  },
+                  {
+                    "Type": "ScalableImage",
+                    "Name": "scalableImage2",
+                    "X": 28,
+                    "Y": 53,
+                    "Width": 80,
+                    "Height": 80,
+                    "Filename": "ecg.png",
+                    "ScalingAlgorithm": "Nearest-neighbor"
+                  },
+                  {
+                    "Type": "ScalableImage",
+                    "Name": "scalableImage4",
+                    "X": 28,
+                    "Y": 267,
+                    "Width": 80,
+                    "Height": 80,
+                    "Filename": "sao.png",
+                    "ScalingAlgorithm": "Nearest-neighbor"
+                  },
+                  {
+                    "Type": "ScalableImage",
+                    "Name": "scalableImage5",
+                    "X": 28,
+                    "Y": 385,
+                    "Width": 80,
+                    "Height": 80,
+                    "Filename": "temp.png",
+                    "ScalingAlgorithm": "Nearest-neighbor"
+                  },
+                  {
+                    "Type": "AnimatedImage",
+                    "Name": "animatedImage1",
+                    "X": 28,
+                    "Y": 167,
+                    "Width": 80,
+                    "Height": 80,
+                    "FileNameFirst": "Image1.png",
+                    "FileNameLast": "Image15.png",
+                    "UpdateTicksInterval": 100,
+                    "StartOnLoad": true,
+                    "ReverseEnabled": true,
+                    "LoopEnabled": true
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "image1",
+                    "X": 579,
+                    "Y": 19,
+                    "Width": 16,
+                    "Height": 16,
+                    "RelativeFilename": "WiFi .png"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea_tem",
+                    "X": 121,
+                    "Y": 411,
+                    "Width": 191,
+                    "Height": 33,
+                    "TextId": "__SingleUse_IGD8",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Green": 237,
+                      "Blue": 20
+                    },
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_CFU8",
+                      "UseBuffer": true,
+                      "BufferSize": 10
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea_sao2",
+                    "X": 121,
+                    "Y": 297,
+                    "Width": 132,
+                    "Height": 33,
+                    "TextId": "__SingleUse_EHZ0",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 204,
+                      "Green": 55,
+                      "Blue": 55
+                    },
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_G6DE",
+                      "UseBuffer": true,
+                      "BufferSize": 10
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea_heart",
+                    "X": 130,
+                    "Y": 188,
+                    "Width": 207,
+                    "Height": 33,
+                    "TextId": "__SingleUse_UOB0",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 250
+                    },
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_MWPM",
+                      "UseBuffer": true,
+                      "BufferSize": 10
+                    }
+                  },
+                  {
+                    "Type": "DynamicGraph",
+                    "Name": "dynamicGraph_ecg",
+                    "X": 132,
+                    "Y": 59,
+                    "Width": 190,
+                    "Height": 74,
+                    "DataSeed": -942688554,
+                    "NumberOfValues": 100,
+                    "MaxY": 100.0,
+                    "Precision": "1",
+                    "UseCustomVisibleDataPointRange": true,
+                    "LastIndex": 99,
+                    "XAxisScale": 1.0,
+                    "InsertRandomValues": true,
+                    "GraphType": "GraphWrapClear",
+                    "GraphDrawers": [
+                      {
+                        "Type": "LineDrawer",
+                        "LineWidth": 2,
+                        "FileNameImage": "",
+                        "Color": {
+                          "Red": 194,
+                          "Green": 194,
+                          "Blue": 194
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea_ecg",
+                    "X": 42,
+                    "Y": 122,
+                    "Width": 45,
+                    "Height": 66,
+                    "TextId": "__SingleUse_H3EA",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 227,
+                      "Green": 221,
+                      "Blue": 213
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton_ECG",
+            "X": 39,
+            "Y": 59,
+            "Width": 58,
+            "Height": 59,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 58,
+                "Height": 59,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton_ECG"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "ECG"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ECG",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 181,
+              "Green": 165,
+              "Blue": 165
+            },
+            "BorderColor": {
+              "Red": 184,
+              "Green": 184,
+              "Blue": 184
+            },
+            "BorderSize": 5
+          },
+          {
+            "Type": "Button",
+            "Name": "button_go_back",
+            "X": 10,
+            "Y": 410,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_outline_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_outline_action.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1",
+            "Width": 800,
+            "Height": 392,
+            "DataSeed": 448760294,
+            "NumberOfValues": 100,
+            "MaxY": 160.0,
+            "MinY": 110.0,
+            "Precision": "1",
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 250
+                }
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 200,
+                "Green": 200,
+                "Blue": 200
+              },
+              "Interval": 10.0,
+              "LineWidth": 2
+            },
+            "MinorXAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 200,
+                "Green": 200,
+                "Blue": 200
+              },
+              "Interval": 2.0,
+              "LineWidth": 1,
+              "Alpha": 100
+            },
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 200,
+                "Green": 200,
+                "Blue": 200
+              },
+              "Interval": 10.0,
+              "LineWidth": 2
+            },
+            "MinorYAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 200,
+                "Green": 200,
+                "Blue": 200
+              },
+              "Interval": 2.0,
+              "LineWidth": 1,
+              "Alpha": 100
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "back",
+            "Y": 400,
+            "Width": 80,
+            "Height": 80,
+            "Filename": "go_back.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_go_back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "start"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "start",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H743/753",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../button.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.23.2"
+}

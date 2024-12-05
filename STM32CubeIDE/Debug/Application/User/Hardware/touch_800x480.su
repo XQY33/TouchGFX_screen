@@ -1,0 +1,8 @@
+../Application/User/Hardware/touch_800x480.c:30:6:GT9XX_Reset	8	static
+../Application/User/Hardware/touch_800x480.c:59:9:GT9XX_WriteHandle	24	static
+../Application/User/Hardware/touch_800x480.c:88:9:GT9XX_WriteData	24	static
+../Application/User/Hardware/touch_800x480.c:118:9:GT9XX_WriteReg	24	static
+../Application/User/Hardware/touch_800x480.c:153:9:GT9XX_ReadReg	32	static
+../Application/User/Hardware/touch_800x480.c:197:6:PanelRecognition	40	static
+../Application/User/Hardware/touch_800x480.c:237:9:Touch_Init	24	static
+../Application/User/Hardware/touch_800x480.c:299:6:Touch_Scan	56	static

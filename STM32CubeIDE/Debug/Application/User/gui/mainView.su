@@ -1,0 +1,69 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:132:5:touchgfx::Bitmap::Bitmap(touchgfx::BitmapId)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:273:13:int16_t touchgfx::Drawable::getX() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:283:13:int16_t touchgfx::Drawable::getY() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:293:13:int16_t touchgfx::Drawable::getWidth() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:303:13:int16_t touchgfx::Drawable::getHeight() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:413:10:void touchgfx::Drawable::setWidthHeight(int16_t, int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:515:10:void touchgfx::Drawable::setVisible(bool)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:525:10:void touchgfx::Drawable::setTouchable(bool)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:187:10:void touchgfx::Application::registerTimerWidget(touchgfx::Drawable*)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:208:10:void touchgfx::Application::unregisterTimerWidget(const touchgfx::Drawable*)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:110:17:static touchgfx::HAL* touchgfx::HAL::getInstance()	4	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:336:10:void touchgfx::HAL::enableDMAAcceleration(bool)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:608:14:uint32_t touchgfx::HAL::getLCDRefreshCount()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:618:10:void touchgfx::HAL::setFrameRateCompensation(bool)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:823:13:uint8_t touchgfx::HAL::getMCULoadPct() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:223:10:void touchgfx::Screen::add(touchgfx::Drawable&)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:278:10:void touchgfx::Screen::remove(touchgfx::Drawable&)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:60:10:void touchgfx::Button::setAlpha(uint8_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:68:13:uint8_t touchgfx::Button::getAlpha() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:84:18:virtual void touchgfx::Button::invalidateContent() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:59:5:touchgfx::TypedText::TypedText(touchgfx::TypedTextId)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:89:18:virtual void touchgfx::TextArea::setAlpha(uint8_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:97:13:uint8_t touchgfx::TextArea::getAlpha() const	16	static
+../../TouchGFX/gui/include/gui/main_screen/mainView.hpp:20:13:mainView::~mainView()	16	static
+../../TouchGFX/gui/include/gui/main_screen/mainView.hpp:20:13:virtual mainView::~mainView()	16	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:7:1:mainView::mainView()	32	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:22:6:virtual void mainView::setupScreen()	48	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:99:6:virtual void mainView::tearDownScreen()	16	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:105:6:virtual void mainView::handleTickEvent()	32	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:161:6:virtual void mainView::startTransitionPressed()	16	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:178:6:virtual void mainView::getTransitionInfo(TransitionInfo*)	16	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:184:6:virtual void mainView::scrollWheelPressed()	16	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:189:6:virtual void mainView::scrollWheelAnimationEnded()	32	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:196:6:virtual void mainView::ChromARTPressed(bool)	16	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:201:6:virtual void mainView::sliderMenuStateChanged(touchgfx::SlideMenu::State)	16	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:209:6:virtual void mainView::animationSpeedButtonPressed(bool)	16	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:214:6:void mainView::updateMCU(uint16_t)	16	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:219:6:void mainView::updateFPS(uint16_t)	16	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:224:6:void mainView::transitionEndedHandler(uint16_t)	32	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/main_screen/mainView.cpp:244:6:void mainView::buttonFadeAnimationEndedHandler(const touchgfx::FadeAnimator<touchgfx::Button>&)	40	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<short unsigned int>::GenericCallback()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = mainView; T1 = short unsigned int]	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<const touchgfx::FadeAnimator<touchgfx::Button>&, void, void>::GenericCallback()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = mainView; T1 = const touchgfx::FadeAnimator<touchgfx::Button>&]	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:59:10:void touchgfx::FadeAnimator<T>::setFadeAnimationEndedAction(touchgfx::GenericCallback<const touchgfx::FadeAnimator<T>&>&) [with T = touchgfx::Button]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:122:10:void touchgfx::FadeAnimator<T>::startFadeAnimation(uint8_t, uint16_t, touchgfx::EasingEquation) [with T = touchgfx::Button]	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:122:10:void touchgfx::FadeAnimator<T>::startFadeAnimation(uint8_t, uint16_t, touchgfx::EasingEquation) [with T = touchgfx::TextArea]	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = short unsigned int]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = short unsigned int]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::FadeAnimator<touchgfx::Button>&]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::FadeAnimator<touchgfx::Button>&]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:165:10:void touchgfx::FadeAnimator<T>::nextFadeAnimationStep() [with T = touchgfx::Button]	32	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:165:10:void touchgfx::FadeAnimator<T>::nextFadeAnimationStep() [with T = touchgfx::TextArea]	32	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<mainView, const touchgfx::FadeAnimator<touchgfx::Button>&>::~Callback()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<mainView, const touchgfx::FadeAnimator<touchgfx::Button>&>::~Callback()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<mainView, short unsigned int>::~Callback()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<mainView, short unsigned int>::~Callback()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = mainView; T1 = const touchgfx::FadeAnimator<touchgfx::Button>&]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = mainView; T1 = const touchgfx::FadeAnimator<touchgfx::Button>&]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = mainView; T1 = short unsigned int]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = mainView; T1 = short unsigned int]	16	static

@@ -1,0 +1,11 @@
+../Application/User/Hardware/touch_iic.c:29:6:Touch_IIC_GPIO_Config	48	static
+../Application/User/Hardware/touch_iic.c:72:6:Touch_IIC_Delay	24	static
+../Application/User/Hardware/touch_iic.c:89:6:Touch_INT_Out	32	static
+../Application/User/Hardware/touch_iic.c:109:6:Touch_INT_In	32	static
+../Application/User/Hardware/touch_iic.c:131:6:Touch_IIC_Start	8	static
+../Application/User/Hardware/touch_iic.c:151:6:Touch_IIC_Stop	8	static
+../Application/User/Hardware/touch_iic.c:172:6:Touch_IIC_ACK	8	static
+../Application/User/Hardware/touch_iic.c:196:6:Touch_IIC_NoACK	8	static
+../Application/User/Hardware/touch_iic.c:217:9:Touch_IIC_WaitACK	8	static
+../Application/User/Hardware/touch_iic.c:247:9:Touch_IIC_WriteByte	24	static
+../Application/User/Hardware/touch_iic.c:279:9:Touch_IIC_ReadByte	24	static

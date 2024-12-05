@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.2">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_MWPM" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="80" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+      </Text>
+      <Text Id="__SingleUse_CFU8" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">36.20</Translation>
+      </Text>
+      <Text Id="__SingleUse_G6DE" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">98</Translation>
+      </Text>
+      <Text Id="__SingleUse_H3EA" Alignment="Left" TypographyId="Typography_tm">
+        <Translation Language="GB">ECG&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_UOB0" Alignment="Left" TypographyId="Typography_tm">
+        <Translation Language="GB">心率：&lt;value&gt; /min</Translation>
+      </Text>
+      <Text Id="__SingleUse_EHZ0" Alignment="Left" TypographyId="Typography_tm">
+        <Translation Language="GB">血氧：&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_IGD8" Alignment="Left" TypographyId="Typography_tm">
+        <Translation Language="GB">体温：&lt;value&gt;℃</Translation>
+      </Text>
+      <Text Id="__SingleUse_T6TR" Alignment="Center" TypographyId="Typography_zn">
+        <Translation Language="GB">智能担架手持终端</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_zn" Font="STXINWEI.TTF" Size="55" Bpp="4" IsVector="no" Direction="RTL" FallbackCharacter="?" />
+    <Typography Id="Typography_tm" Font="simfang.ttf" Size="29" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="0" WildcardCharacters="0-9." WildcardCharacterRanges="0-9" />
+  </Typographies>
+</TextDatabase>

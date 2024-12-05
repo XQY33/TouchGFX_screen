@@ -1,0 +1,46 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:187:10:void touchgfx::Application::registerTimerWidget(touchgfx::Drawable*)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:208:10:void touchgfx::Application::unregisterTimerWidget(const touchgfx::Drawable*)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:179:13:touchgfx::GenericCallback<void>::~GenericCallback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:179:13:virtual touchgfx::GenericCallback<void>::~GenericCallback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:76:10:void touchgfx::Image::setAlpha(uint8_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:111:13:uint8_t touchgfx::Image::getAlpha() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:118:18:virtual void touchgfx::Image::invalidateContent() const	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:216:18:virtual void touchgfx::TextureMapper::updateZAngle(float)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:258:19:virtual float touchgfx::TextureMapper::getZAngle() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:612:18:virtual void touchgfx::TextureMapper::invalidateContent() const	2
+../../TouchGFX/generated/gui_generated/include/gui_generated/containers/bottombarContainerBase.hpp:68:18:virtual void bottombarContainerBase::emitGetTransitionInfoCallback(TransitionInfo*)	4
+../../TouchGFX/generated/gui_generated/include/gui_generated/containers/bottombarContainerBase.hpp:75:18:virtual void bottombarContainerBase::emitScrollWheelPressedCallback()	4
+../../TouchGFX/generated/gui_generated/include/gui_generated/containers/bottombarContainerBase.hpp:82:18:virtual void bottombarContainerBase::emitScrollWheelAnimationEndedCallback()	4
+../../TouchGFX/generated/gui_generated/include/gui_generated/containers/bottombarContainerBase.hpp:89:18:virtual void bottombarContainerBase::emitAnimaitonSpeedPressedCallback(bool)	4
+../../TouchGFX/gui/include/gui/containers/bottombarContainer.hpp:10:13:bottombarContainer::~bottombarContainer()	1
+../../TouchGFX/gui/include/gui/containers/bottombarContainer.hpp:10:13:virtual bottombarContainer::~bottombarContainer()	1
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/containers/bottombarContainer.cpp:6:1:bottombarContainer::bottombarContainer()	1
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/containers/bottombarContainer.cpp:12:6:virtual void bottombarContainer::initialize()	1
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/containers/bottombarContainer.cpp:19:6:virtual void bottombarContainer::handleTickEvent()	3
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/containers/bottombarContainer.cpp:36:6:virtual void bottombarContainer::transitionSelectionWheelUpdateItem(transitionItem&, int16_t)	2
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/containers/bottombarContainer.cpp:51:6:virtual void bottombarContainer::animateArrow(touchgfx::SlideMenu::State)	2
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/containers/bottombarContainer.cpp:68:6:void bottombarContainer::setNumberOfTransitionsItems(uint16_t)	1
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/containers/bottombarContainer.cpp:73:10:uint16_t bottombarContainer::getSelectedTransition()	1
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/containers/bottombarContainer.cpp:78:6:void bottombarContainer::fade(uint8_t, uint16_t, touchgfx::EasingEquation)	1
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/gui/src/containers/bottombarContainer.cpp:84:6:void bottombarContainer::animationEndedHandler()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:175:7:constexpr touchgfx::GenericCallback<void>::GenericCallback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:440:5:touchgfx::Callback<dest_type, void, void, void>::Callback(dest_type*, void (dest_type::*)()) [with dest_type = bottombarContainer]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:122:10:void touchgfx::FadeAnimator<T>::startFadeAnimation(uint8_t, uint16_t, touchgfx::EasingEquation) [with T = touchgfx::TextureMapper]	4
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:122:10:void touchgfx::FadeAnimator<T>::startFadeAnimation(uint8_t, uint16_t, touchgfx::EasingEquation) [with T = touchgfx::Image]	4
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:165:10:void touchgfx::FadeAnimator<T>::nextFadeAnimationStep() [with T = touchgfx::TextureMapper]	9
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:165:10:void touchgfx::FadeAnimator<T>::nextFadeAnimationStep() [with T = touchgfx::Image]	9
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:424:8:touchgfx::Callback<bottombarContainer>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:424:8:virtual touchgfx::Callback<bottombarContainer>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:449:18:void touchgfx::Callback<dest_type, void, void, void>::execute() [with dest_type = bottombarContainer]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:459:18:bool touchgfx::Callback<dest_type, void, void, void>::isValid() const [with dest_type = bottombarContainer]	5
