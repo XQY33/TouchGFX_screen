@@ -408,21 +408,6 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_STXINWEI_TTF_55_4bpp_0.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/Font_STXINWEI_TTF_55_4bpp_12.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_STXINWEI_TTF_55_4bpp_12.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/Font_STXINWEI_TTF_55_4bpp_15.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_STXINWEI_TTF_55_4bpp_15.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/Font_STXINWEI_TTF_55_4bpp_16.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_STXINWEI_TTF_55_4bpp_16.cpp</locationURI>
-		</link>
-		<link>
 			<name>Application/User/generated/Font_simfang_29_4bpp_0.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_simfang_29_4bpp_0.cpp</locationURI>
@@ -586,11 +571,6 @@
 			<name>Application/User/generated/image_dark_theme_images_widgets_swipecontainer_small_on_normal.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_widgets_swipecontainer_small_on_normal.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/image_glass_theme_images_backgrounds_800x480_gradient_waves.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_glass_theme_images_backgrounds_800x480_gradient_waves.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_Image1.cpp</name>

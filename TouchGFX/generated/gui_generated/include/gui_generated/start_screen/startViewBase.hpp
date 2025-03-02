@@ -10,14 +10,14 @@
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/containers/SwipeContainer.hpp>
 #include <touchgfx/containers/Container.hpp>
-#include <touchgfx/widgets/Image.hpp>
-#include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/ScalableImage.hpp>
 #include <touchgfx/widgets/AnimatedImage.hpp>
+#include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include <touchgfx/widgets/graph/GraphWrapAndClear.hpp>
 #include <touchgfx/widgets/graph/GraphElements.hpp>
 #include <touchgfx/widgets/canvas/PainterRGB565.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/containers/buttons/Buttons.hpp>
 
 class startViewBase : public touchgfx::View<startPresenter>
@@ -37,10 +37,6 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::SwipeContainer swipeContainer1;
-    touchgfx::Container swipeContainer1Page1;
-    touchgfx::Image back;
-    touchgfx::TextArea Head;
-    touchgfx::ScalableImage logo;
     touchgfx::Container swipeContainer1Page2;
     touchgfx::ScalableImage scalableImage1;
     touchgfx::ScalableImage scalableImage2;

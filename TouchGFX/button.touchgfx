@@ -21,47 +21,6 @@
             "Components": [
               {
                 "Type": "Container",
-                "Name": "swipeContainer1Page1",
-                "Width": 800,
-                "Height": 480,
-                "Components": [
-                  {
-                    "Type": "Image",
-                    "Name": "back",
-                    "Width": 800,
-                    "Height": 480,
-                    "RelativeFilename": "__generated\\glass_theme_images_backgrounds_800x480_gradient_waves.png"
-                  },
-                  {
-                    "Type": "TextArea",
-                    "Name": "Head",
-                    "X": 97,
-                    "Y": 32,
-                    "Width": 609,
-                    "Height": 135,
-                    "TextId": "__SingleUse_T6TR",
-                    "TextRotation": "0",
-                    "Color": {
-                      "Red": 210,
-                      "Green": 212,
-                      "Blue": 217
-                    },
-                    "WideTextAction": 6
-                  },
-                  {
-                    "Type": "ScalableImage",
-                    "Name": "logo",
-                    "X": -43,
-                    "Y": 221,
-                    "Width": 561,
-                    "Height": 381,
-                    "Filename": "img_01.png",
-                    "ScalingAlgorithm": "Nearest-neighbor"
-                  }
-                ]
-              },
-              {
-                "Type": "Container",
                 "Name": "swipeContainer1Page2",
                 "Width": 800,
                 "Height": 480,

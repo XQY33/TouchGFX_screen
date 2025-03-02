@@ -14,7 +14,7 @@ uint16_t touchgfx::Font::getStringWidth(const touchgfx::Unicode::UnicodeChar* te
 {
     va_list pArg;
     va_start(pArg, text);
-    uint16_t width = getStringWidthRTL(TEXT_DIRECTION_LTR, text, pArg);
+    uint16_t width = getStringWidthLTR(TEXT_DIRECTION_LTR, text, pArg);
     va_end(pArg);
     return width;
 }
@@ -23,14 +23,13 @@ uint16_t touchgfx::Font::getStringWidth(touchgfx::TextDirection textDirection, c
 {
     va_list pArg;
     va_start(pArg, text);
-    uint16_t width = getStringWidthRTL(textDirection, text, pArg);
+    uint16_t width = getStringWidthLTR(textDirection, text, pArg);
     va_end(pArg);
     return width;
 }
 
 touchgfx::Unicode::UnicodeChar touchgfx::TextProvider::getNextLigature(TextDirection direction)
 {
-    nextCharacters.replaceAt0(unicodeConverter(direction));
     if (fontGsubTable && nextCharacters.peekChar())
     {
         substituteGlyphs();
@@ -46,14 +45,13 @@ touchgfx::Unicode::UnicodeChar touchgfx::TextProvider::getNextLigature(TextDirec
 void touchgfx::TextProvider::initializeInternal()
 {
     fillInputBuffer();
-    unicodeConverterInit();
 }
 
 void touchgfx::LCD::drawString(touchgfx::Rect widgetArea, const touchgfx::Rect& invalidatedArea, const touchgfx::LCD::StringVisuals& stringVisuals, const touchgfx::Unicode::UnicodeChar* format, ...)
 {
     va_list pArg;
     va_start(pArg, format);
-    drawStringRTL(widgetArea, invalidatedArea, stringVisuals, format, pArg);
+    drawStringLTR(widgetArea, invalidatedArea, stringVisuals, format, pArg);
     va_end(pArg);
 }
 
@@ -66,11 +64,10 @@ KEEP extern const touchgfx::Unicode::UnicodeChar texts_all_languages[] TEXT_LOCA
     0x4f53, 0x6e29, 0xff1a, 0x2, 0x2103, 0x0, // @10 "???<>?"
     0x8840, 0x6c27, 0xff1a, 0x2, 0x25, 0x0, // @16 "???<>%"
     0x4e, 0x65, 0x77, 0x20, 0x54, 0x65, 0x78, 0x74, 0x0, // @22 "New Text"
-    0x667a, 0x80fd, 0x62c5, 0x67b6, 0x624b, 0x6301, 0x7ec8, 0x7aef, 0x0, // @31 "????????"
-    0x33, 0x36, 0x2e, 0x32, 0x30, 0x0, // @40 "36.20"
-    0x45, 0x43, 0x47, 0xa, 0x0, // @46 "ECG\n"
-    0x30, 0x30, 0x30, 0x0, // @51 "000"
-    0x39, 0x38, 0x0 // @55 "98"
+    0x33, 0x36, 0x2e, 0x32, 0x30, 0x0, // @31 "36.20"
+    0x45, 0x43, 0x47, 0xa, 0x0, // @37 "ECG\n"
+    0x30, 0x30, 0x30, 0x0, // @42 "000"
+    0x39, 0x38, 0x0 // @46 "98"
 };
 
 TEXT_LOCATION_FLASH_PRAGMA

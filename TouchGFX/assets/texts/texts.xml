@@ -30,9 +30,6 @@
       <Text Id="__SingleUse_IGD8" Alignment="Left" TypographyId="Typography_tm">
         <Translation Language="GB">体温：&lt;value&gt;℃</Translation>
       </Text>
-      <Text Id="__SingleUse_T6TR" Alignment="Center" TypographyId="Typography_zn">
-        <Translation Language="GB">智能担架手持终端</Translation>
-      </Text>
     </TextGroup>
   </Texts>
   <Typographies>

@@ -40,7 +40,6 @@ CPP_DEPS :=
 SUBDIRS := \
 Application/User/Core \
 Application/User/Hardware \
-Application/User/Startup \
 Application/User/TouchGFX/App \
 Application/User/TouchGFX/target \
 Application/User/TouchGFX/target/generated \
@@ -49,4 +48,5 @@ Application/User/gui \
 Drivers/CMSIS \
 Drivers/STM32H7xx_HAL_Driver \
 Middlewares/FreeRTOS \
+assets \
 

@@ -1,2 +1,2 @@
-D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/generated/images/src/BitmapDatabase.cpp:71:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	4	static
-D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/generated/images/src/BitmapDatabase.cpp:76:10:uint16_t BitmapDatabase::getInstanceSize()	4	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/generated/images/src/BitmapDatabase.cpp:69:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	4	static
+D:/APP/STM32CubeIDE_1.15.1/workspace/button/TouchGFX/generated/images/src/BitmapDatabase.cpp:74:10:uint16_t BitmapDatabase::getInstanceSize()	4	static

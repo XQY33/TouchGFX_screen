@@ -4,15 +4,7 @@
 
 FONT_TABLE_LOCATION_FLASH_PRAGMA
 KEEP extern const touchgfx::GlyphNode glyphs_STXINWEI_TTF_55_4bpp[] FONT_TABLE_LOCATION_FLASH_ATTRIBUTE = {
-    {     0, 0x003F,  16,  41,  40,   4,  22,   0,   0, 0x00 },
-    {     0, 0x624B,  39,  45,  38,   8,  55,   0,   0, 0x00 },
-    {   900, 0x62C5,  45,  43,  37,   4,  55,   0,   0, 0x00 },
-    {  1889, 0x6301,  46,  48,  39,   4,  55,   0,   0, 0x00 },
-    {  2993, 0x667A,  43,  51,  41,   6,  55,   0,   0, 0x00 },
-    {  4115, 0x67B6,  46,  42,  37,   3,  55,   0,   0, 0x00 },
-    {     0, 0x7AEF,  42,  46,  39,   6,  55,   0,   0, 0x00 },
-    {   966, 0x7EC8,  50,  41,  35,   6,  55,   0,   0, 0x00 },
-    {     0, 0x80FD,  39,  43,  37,   8,  55,   0,   0, 0x00 }
+    {     0, 0x003F,  16,  41,  40,   4,  22,   0,   0, 0x00 }
 };
 
 // STXINWEI_TTF_55_4bpp
@@ -20,31 +12,9 @@ FONT_TABLE_LOCATION_FLASH_PRAGMA
 KEEP extern const touchgfx::GlyphNode glyphs_STXINWEI_TTF_55_4bpp[] FONT_TABLE_LOCATION_FLASH_ATTRIBUTE;
 FONT_GLYPH_LOCATION_FLASH_PRAGMA
 KEEP extern const uint8_t unicodes_STXINWEI_TTF_55_4bpp_0[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
-FONT_GLYPH_LOCATION_FLASH_PRAGMA
-KEEP extern const uint8_t unicodes_STXINWEI_TTF_55_4bpp_12[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
-FONT_GLYPH_LOCATION_FLASH_PRAGMA
-KEEP extern const uint8_t unicodes_STXINWEI_TTF_55_4bpp_15[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
-FONT_GLYPH_LOCATION_FLASH_PRAGMA
-KEEP extern const uint8_t unicodes_STXINWEI_TTF_55_4bpp_16[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
 FONT_SEARCHTABLE_LOCATION_FLASH_PRAGMA
 KEEP extern const uint8_t* const unicodes_STXINWEI_TTF_55_4bpp[] FONT_SEARCHTABLE_LOCATION_FLASH_ATTRIBUTE = {
-    unicodes_STXINWEI_TTF_55_4bpp_0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    unicodes_STXINWEI_TTF_55_4bpp_12,
-    0,
-    0,
-    unicodes_STXINWEI_TTF_55_4bpp_15,
-    unicodes_STXINWEI_TTF_55_4bpp_16
+    unicodes_STXINWEI_TTF_55_4bpp_0
 };
 FONT_KERNING_LOCATION_FLASH_PRAGMA
 KEEP extern const touchgfx::KerningNode kerning_STXINWEI_TTF_55_4bpp[] FONT_KERNING_LOCATION_FLASH_ATTRIBUTE;
@@ -52,6 +22,6 @@ touchgfx::GeneratedFont& getFont_STXINWEI_TTF_55_4bpp();
 
 touchgfx::GeneratedFont& getFont_STXINWEI_TTF_55_4bpp()
 {
-    static touchgfx::GeneratedFont STXINWEI_TTF_55_4bpp(glyphs_STXINWEI_TTF_55_4bpp, 9, 65, 55, 0, 0, 4, 1, 0, 1, unicodes_STXINWEI_TTF_55_4bpp, kerning_STXINWEI_TTF_55_4bpp, 63, 0, 0, 0);
+    static touchgfx::GeneratedFont STXINWEI_TTF_55_4bpp(glyphs_STXINWEI_TTF_55_4bpp, 1, 56, 55, 0, 0, 4, 1, 0, 0, unicodes_STXINWEI_TTF_55_4bpp, kerning_STXINWEI_TTF_55_4bpp, 63, 0, 0, 0);
     return STXINWEI_TTF_55_4bpp;
 }

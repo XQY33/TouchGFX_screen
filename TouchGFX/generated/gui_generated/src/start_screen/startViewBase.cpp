@@ -22,26 +22,6 @@ startViewBase::startViewBase() :
     swipeContainer1.setSwipeCutoff(50);
     swipeContainer1.setEndSwipeElasticWidth(50);
 
-    swipeContainer1Page1.setWidth(800);
-    swipeContainer1Page1.setHeight(480);
-    back.setXY(0, 0);
-    back.setBitmap(touchgfx::Bitmap(BITMAP_GLASS_THEME_IMAGES_BACKGROUNDS_800X480_GRADIENT_WAVES_ID));
-    swipeContainer1Page1.add(back);
-
-    Head.setPosition(97, 32, 609, 135);
-    Head.setColor(touchgfx::Color::getColorFromRGB(210, 212, 217));
-    Head.setLinespacing(0);
-    Head.setWideTextAction(WIDE_TEXT_CHARWRAP_DOUBLE_ELLIPSIS);
-    Head.setTypedText(touchgfx::TypedText(T___SINGLEUSE_T6TR));
-    swipeContainer1Page1.add(Head);
-
-    logo.setBitmap(touchgfx::Bitmap(BITMAP_IMG_01_ID));
-    logo.setPosition(-43, 221, 561, 381);
-    logo.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
-    swipeContainer1Page1.add(logo);
-
-    swipeContainer1.add(swipeContainer1Page1);
-
     swipeContainer1Page2.setWidth(800);
     swipeContainer1Page2.setHeight(480);
     scalableImage1.setBitmap(touchgfx::Bitmap(BITMAP_IMG_BACK_ID));
@@ -223,7 +203,7 @@ startViewBase::startViewBase() :
 
     swipeContainer1.add(swipeContainer1Page2);
 
-    swipeContainer1.setSelectedPage(1);
+    swipeContainer1.setSelectedPage(0);
     add(swipeContainer1);
 
     flexButton_ECG.setBoxWithBorderPosition(0, 0, 58, 59);

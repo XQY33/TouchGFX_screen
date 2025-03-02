@@ -252,7 +252,6 @@ void MPU_Config(void)
 
 }
 
-
 /**
   * @brief  Period elapsed callback in non blocking mode
   * @note   This function is called  when TIM1 interrupt took place, inside

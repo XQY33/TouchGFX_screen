@@ -34,6 +34,8 @@
 /* USER CODE BEGIN PTD */
 DataPacket packet;
 int ECG_flag;
+uint8_t rx_buffer[172];
+
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -41,7 +43,7 @@ int ECG_flag;
 
 
 uint32_t unpack_uint32(const uint8_t *data) {
-    // 确保从小端字节序数据中提取一个32位无符号整数
+    // 确保从小端字节序数据中提取一�?32位无符号整数
     return (uint32_t)data[0] |
            (uint32_t)data[1] << 8 |
            (uint32_t)data[2] << 16 |
@@ -63,7 +65,7 @@ void unpack_data(const uint8_t *data, DataPacket *packet) {
     packet->body_temperature = unpack_uint32(data);
     data += 4;
 
-    // 复制血氧
+    // 复制�?�?
     packet->blood_oxygen = unpack_uint32(data);
 }
 
@@ -201,7 +203,7 @@ void MX_FREERTOS_Init(void) {
   TouchGFX_TaskHandle = osThreadCreate(osThread(TouchGFX_Task), NULL);
 
   /* definition and creation of LED */
-  osThreadDef(LED, StartTaskLED, osPriorityLow, 0, 1024);
+  osThreadDef(LED, StartTaskLED, osPriorityLow, 0, 128);
   LEDHandle = osThreadCreate(osThread(LED), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
@@ -236,7 +238,6 @@ void Start_TouchGFX_Task(void const * argument)
 * @retval None
 */
 /* USER CODE END Header_StartTaskLED */
-uint8_t rx_buffer[172];
 void StartTaskLED(void const * argument)
 {
   /* USER CODE BEGIN StartTaskLED */
@@ -250,9 +251,7 @@ void StartTaskLED(void const * argument)
 
       osDelay(50);
   /* USER CODE END StartTaskLED */
-  }
-
-
+}
 }
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
@@ -263,9 +262,5 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 
 	unpack_data(rx_buffer, &packet);
 	print_packet(&packet);
-
-
-
 }
-
 /* USER CODE END Application */
